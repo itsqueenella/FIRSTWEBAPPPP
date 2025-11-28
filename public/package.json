@@ -1,0 +1,12 @@
+{
+  "name": "firstwebapppp-public",
+  "version": "1.0.0",
+  "description": "Public build copy for Render service root",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
