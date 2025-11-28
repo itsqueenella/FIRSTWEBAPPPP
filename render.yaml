@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: firstwebapppp
+    env: docker
+    repo: https://github.com/itsqueenella/FIRSTWEBAPPPP
+    branch: main
+    plan: free
+    root: /
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    healthCheckPath: /health
